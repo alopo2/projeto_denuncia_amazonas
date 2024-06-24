@@ -25,10 +25,10 @@ function Menu() {
           <Link className={open ? styles.linkOpen : styles.link} to="/denuncia">Denúncia</Link>
         </li>
         <li className={open ? styles.itemOpen : styles.item}>
-          <Link className={open ? styles.linkOpen : styles.link} to="/contato">Contato</Link>
+          <Link className={open ? styles.linkOpen : styles.link} to="/artigos">Artigos</Link>
         </li>
         <li className={open ? styles.itemOpen : styles.item}>
-          <Link className={open ? styles.linkOpen : styles.link} to="/artigos">Artigos</Link>
+          <Link className={open ? styles.linkOpen : styles.link} to="/contato">Contato</Link>
         </li>
       </ul>
     </nav>
